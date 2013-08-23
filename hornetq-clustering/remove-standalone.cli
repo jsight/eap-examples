@@ -1,0 +1,8 @@
+## Batch file to configure the standalone server for the hornetq-clustering quickstart.
+
+# Undeploy the helloworld mdb
+undeploy jboss-as-helloworld-mdb.war
+
+# Reload the server
+:reload
+
